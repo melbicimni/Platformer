@@ -1,15 +1,8 @@
-<<<<<<< HEAD
-package 
-{
-	import org.flixel.FlxSprite;
-	import org.flixel.FlxG;
-=======
 package
 {
 	import org.flixel.FlxG;
 	import org.flixel.FlxPoint;
 	import org.flixel.FlxSprite;
->>>>>>> 6ae00cddd41d387c1d0f1ea8565c51de74197b79
 	
 	/**
 	 * ...
@@ -20,8 +13,6 @@ package
 		
 		[Embed(source="../res/mario.png")]
 		private var ImgPlayer:Class;
-<<<<<<< HEAD
-=======
 		private var hasMissile:Boolean = false;
 		
 		public function getMissile():Boolean
@@ -33,16 +24,14 @@ package
 		{
 			hasMissile = b;
 		}
->>>>>>> 6ae00cddd41d387c1d0f1ea8565c51de74197b79
+
 		
 		public function Player(spawnX:Number, spawnY:Number):void
 		{
 			super(spawnX, spawnY);
-<<<<<<< HEAD
-			
-=======
+
 			//createGraphic(8,16,0xffaa1111);
->>>>>>> 6ae00cddd41d387c1d0f1ea8565c51de74197b79
+
 			loadGraphic(ImgPlayer, true, true, 16, 32);
 			
 			addAnimation("walking", [0, 1, 2], 10 , true);
@@ -83,20 +72,18 @@ package
 			{
 				play("still");
 			}
-<<<<<<< HEAD
-=======
+
 		//	if (FlxG.keys.Z) {
 		//		if (_hasMissile){
 					
 		//		}
 		//	}
->>>>>>> 6ae00cddd41d387c1d0f1ea8565c51de74197b79
+
 			
 			//Updates all the objects appropriately
 			super.update();
 		}
-<<<<<<< HEAD
-=======
+
 		public function getSpawnPt():FlxPoint
 		{
 			var p: FlxPoint = new FlxPoint(x+1,y+10);
@@ -110,8 +97,6 @@ package
 				return 0;
 			}
 		}
->>>>>>> 6ae00cddd41d387c1d0f1ea8565c51de74197b79
-		
 	}
 
 }
