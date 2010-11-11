@@ -11,11 +11,6 @@ package
 		public var level:FlxTilemap;
 		public var player:Player;
 		public var enemy:Enemy;
-		
-		override public function create():void
-		{
-			bgColor = 0xffaaaaaa;
-
 		private var _coin:FlxGroup;
 		private var _scoreText:FlxText;
 		private var _missile:FlxGroup;
@@ -132,17 +127,7 @@ package
 			FlxU.collide(level,enemy);
 			FlxU.collide(player, enemy);
 		}
-		
-	}
 
-			
-			
-			//Check to see if the player touched the exit door this frame
-			//FlxU.overlap(exit,player,win);
-			
-			//Finally, bump the player up against the level
-			FlxU.collide(level,player);
-		}
 		public function getCoin(coin:Coin, player:Player):void
 		{
 			coin.kill();
@@ -162,5 +147,4 @@ package
 		}
 		
 	}
-	
 }

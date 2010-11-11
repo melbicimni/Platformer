@@ -2,7 +2,7 @@
 <actionScriptProperties analytics="false" mainApplicationPath="Main.as" projectUUID="3d5121ae-07f2-4829-a488-ee11ce53fd94" version="6">
   <compiler additionalCompilerArguments="-locale en_US" autoRSLOrdering="true" copyDependentFiles="true" fteInMXComponents="false" generateAccessible="true" htmlExpressInstall="true" htmlGenerate="true" htmlHistoryManagement="true" htmlPlayerVersionCheck="true" includeNetmonSwc="false" outputFolderPath="bin-debug" sourceFolderPath="src" strict="true" targetPlayerVersion="0.0.0" useApolloConfig="false" useDebugRSLSwfs="true" verifyDigests="true" warn="true">
     <compilerSourcePath>
-      <compilerSourcePathEntry kind="1" linkType="1" path="/Applications/Adobe Flash Builder 4/Libraries/Flixel"/>
+      <compilerSourcePathEntry kind="1" linkType="1" path="/Users/michael/CS Research/flixel"/>
     </compilerSourcePath>
     <libraryPath defaultLinkType="0">
       <libraryPathEntry kind="4" path="">

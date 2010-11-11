@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Main</name>
+	<name>Platformer</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,9 +16,9 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>[source path] Flixel</name>
+			<name>[source path] flixel</name>
 			<type>2</type>
-			<location>/Applications/Adobe Flash Builder 4/Libraries/Flixel</location>
+			<location>/Users/michael/CS Research/flixel</location>
 		</link>
 	</linkedResources>
 </projectDescription>
