@@ -1,7 +1,6 @@
-﻿package 
+﻿package edu.juniata.cs 
 {
 	import org.flixel.*;
-	import PlayState;
 
 	[SWF(width = "512", height = "480", backgroundColor = "#000000")] 
 	

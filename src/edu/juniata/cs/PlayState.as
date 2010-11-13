@@ -1,6 +1,9 @@
-package
+package edu.juniata.cs 
 {
 	import org.flixel.*;
+	import edu.juniata.cs.objects.Missile;
+	import edu.juniata.cs.objects.Coin;
+	import edu.juniata.cs.entities.Player;
 	
 	/**
 	 * ...

@@ -1,4 +1,4 @@
-package
+package edu.juniata.cs.entities
 {
 	import org.flixel.*;
 	

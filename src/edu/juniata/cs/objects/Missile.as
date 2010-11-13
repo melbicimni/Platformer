@@ -1,4 +1,4 @@
-package
+package edu.juniata.cs.objects
 {
 	import org.flixel.*;
 	public class Missile extends FlxSprite
