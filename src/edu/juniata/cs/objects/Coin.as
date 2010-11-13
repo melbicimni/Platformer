@@ -2,7 +2,7 @@ package edu.juniata.cs.objects
 {
 	import org.flixel.*;
 	
-	public class Coin extends FlxSprite
+	public class Coin extends Collectible
 	{
 		[Embed(source="../res/coin.png")] private var ImgCoin:Class;
 		
